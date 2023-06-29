@@ -121,6 +121,16 @@ li:hover {
 }
 
 
+.tag{
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.tag li{
+    flex-wrap: wrap;
+    padding: 2px;
+}
+
 .container {
     
     height: 600px;
