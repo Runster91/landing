@@ -23,20 +23,44 @@ body header {
 
 }
 
+body header ul{
+    padding: 5em;
+}
 
-footer {
+
+footer div {
     background-color: black;
     width: 100%;
     height: 200px;
+    display: flex;
+    color: var(--primarycolor);
+    display:flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5em;
+
 
 }
 
+footer img{
+    width: 15em;
+    height: 10em;
+    padding: 1em;
+}
+
+footer p a:hover{
+    background-color: rgba(238, 163, 13, 0.747);
+    color: brown;
+    
+}
 
 .menu li {
     display: inline;
     list-style: none;
     font-weight: bolder;
     transition: 0.5s;
+
 
 
 }
@@ -47,17 +71,100 @@ li:hover {
 
 }
 
+.ty{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+
+
+.ty button {
+    background-color: #f10c0c;
+    color: white;
+    font-weight: bolder;
+    font-size: 2em;
+    border-radius: 20px;
+    margin-bottom: 3em;
+    padding: 3px;
+    
+}
+
 .mainsec {
     border: 50px solid var(--primarycolor);
+    
+}
+
+.tarj{
+    justify-content: center;
+    display: flex;
+
+
 }
 
 .tarj article {
     border: 5px solid rgb(14, 1, 1);
-    justify-content: space-evenly;
-    padding: 100px;
+    justify-content: space-around;
+    padding: 5%;
     flex-wrap: wrap;
-    border-radius: 12px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 45%;
+    text-align: center;
 
+}
+
+.ar1 {
+    background-image: url(./assets/Rutasrecom.jpg);
+    -webkit-background-size: cover;
+
+}
+
+
+.ar2 {
+    background-image: url(./assets/grmn.jpg);
+    -webkit-background-size: cover;
+
+}
+
+.ar3 {
+    background-image: url(./assets/acc.jpg);
+    -webkit-background-size: cover;
+
+}
+
+.ar1 button{
+    background-color:transparent;
+    color: rgb(250, 248, 243);
+    border: none;
+    width: 12em;
+    height: 3em;
+    font-size: 2em;
+    font-weight: bolder;
+    
+}
+
+.ar2 button{
+    background-color:transparent;
+    color: rgb(253, 17, 0);
+    border: none;
+    width: 12em;
+    height: 3em;
+    font-size: 2em;
+    font-weight: bolder;
+    
+}
+
+.ar3 button{
+    background-color:transparent;
+    color: rgb(247, 244, 244);
+    border: none;
+    width: 12em;
+    height: 3em;
+    font-size: 2em;
+    font-weight: bolder;
+    
 }
 
 .rebike {
@@ -120,15 +227,11 @@ li:hover {
     width: 14em;
 }
 
-
-.tag{
-    list-style: none;
-    flex-wrap: wrap;
-}
-
-.tag li{
-    flex-wrap: wrap;
-    padding: 2px;
+.middleone {
+    font-weight: bolder;
+    text-align: center;
+    color: #f10c0c;
+    font-size:5em ;
 }
 
 .container {
@@ -156,6 +259,18 @@ div.item {
     transition: all 0.25s linear;
     transform: rotateY(calc(-10deg * var(--r))) translateX(calc(-300px * var(--r)));
     z-index: calc((var(--position) - var(--abs)));
+}
+
+.tag{
+    flex-wrap: wrap;
+    
+}
+
+
+.tag li{
+    list-style: none;
+    padding: 1px;
+
 }
 
 div.item:nth-of-type(1) {
@@ -248,4 +363,28 @@ input:nth-of-type(5):checked~main#carousel {
     --middle: 3;
     --position: 1;
     pointer-events: none;
+}
+
+@media screen and (max-width: 600px) {
+    .wider{
+        flex-direction: column;
+    }
+    .jumbotron{
+        width: 100%;
+    }
+    .item{
+        width: 100%;
+    }
+    .tarj{
+        width: 100%;
+    }
+    .ar1{
+        width: fit-content;
+    }
+    .ar2{
+        width: fit-content;
+    }
+    .ar3{
+        width: fit-content;
+    }
 }
