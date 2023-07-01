@@ -96,6 +96,18 @@ li:hover {
     
 }
 
+.sm{
+    height: 70px;   
+    width: 70px;
+}
+
+
+.term{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
 .tarj{
     justify-content: center;
     display: flex;
