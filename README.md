@@ -13,7 +13,7 @@ Please reach out  for any suggestions , comments or  feedback!
 |Runster|rolldamon1906@outlook.com|Address1|
 
 Ill add  the   diagram  of  the current  project 
-![dgrmrev](./assets/dgrmrev.jpg)
+![dgrmrev](dgrmrev.jpg)
 
 [Deployment](https://spontaneous-truffle-d63400.netlify.app)
 
