@@ -15,5 +15,7 @@ Please reach out  for any suggestions , comments or  feedback!
 Ill add  the   diagram  of  the current  project 
 ![dgrmrev](./assets/dgrmrev.jpg)
 
+[Deployment](https://spontaneous-truffle-d63400.netlify.app)
+
 Thanks!
 ***
