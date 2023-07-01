@@ -116,20 +116,20 @@ li:hover {
 }
 
 .ar1 {
-    background-image: url(Rutasrecom.jpg);
+    background-image: url(./assets/Rutasrecom.jpg);
     -webkit-background-size: cover;
 
 }
 
 
 .ar2 {
-    background-image: url(grmn.jpg);
+    background-image: url(./assets/grmn.jpg);
     -webkit-background-size: cover;
 
 }
 
 .ar3 {
-    background-image: url(acc.jpg);
+    background-image: url(./assets/acc.jpg);
     -webkit-background-size: cover;
 
 }
@@ -179,7 +179,7 @@ li:hover {
 }
 
 .jumbotron{
-    background-image: url(jmbtrn.jpg) ;
+    background-image: url(./assets/jmbtrn.jpg) ;
     -webkit-background-size: cover;
     height: 798px ;
     width: 1820px;
@@ -385,6 +385,15 @@ input:nth-of-type(5):checked~main#carousel {
         width: fit-content;
     }
     .ar3{
+        width: fit-content;
+    }
+    .ar1 button{
+        width: fit-content;
+    }
+    .ar2 button{
+        width: fit-content;
+    }
+    .ar3 button{
         width: fit-content;
     }
 }
